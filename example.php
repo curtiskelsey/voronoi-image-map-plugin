@@ -2,7 +2,7 @@
 /**
  * Plugin Name: example
  * Plugin URI: http://its.truman.edu
- * Description: Provides AD group based access permissions on a per page basis.
+ * Description: Provides an example plugin to build off of.
  * Version: 1.0.0
  * Author: Curtis Kelsey
  * Author URI: http://its.truman.edu
