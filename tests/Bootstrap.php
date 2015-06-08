@@ -1,17 +1,13 @@
 <?php
 
-namespace ExamplePluginTest;
+$_tests_dir = getenv('WP_TESTS_DIR');
+if ( !$_tests_dir ) $_tests_dir = '/var/lib/wordpress/trunk';
 
-/**
- * Test bootstrap, for setting up autoloading
- */
-class Bootstrap
-{
+require_once $_tests_dir . '/tests/phpunit/includes/functions.php';
 
-    public static function init()
-    {
-
-    }
+function _manually_load_plugin() {
+    require dirname( __FILE__ ) . '/../example.php';
 }
+tests_add_filter( 'muplugins_loaded', '_manually_load_plugin' );
 
-Bootstrap::init();
+require $_tests_dir . '/tests/phpunit/includes/bootstrap.php';
