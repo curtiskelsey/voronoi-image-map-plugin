@@ -1,9 +1,7 @@
 <?php
-namespace LdapRoleSyncPluginTest;
+namespace ExamplePluginTest;
 
-use PHPUnit_Framework_TestCase;
-
-class LdapRoleSyncTest extends PHPUnit_Framework_TestCase
+class ExampleTest extends \WP_UnitTestCase
 {
 
     public function testExchangeArraySetsPropertiesCorrectly()
