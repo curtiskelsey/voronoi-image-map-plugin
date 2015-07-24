@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'ExamplePlugin\\' => array($baseDir . '/src'),
+    'VoronoiImageMapPlugin\\' => array($baseDir . '/src'),
 );

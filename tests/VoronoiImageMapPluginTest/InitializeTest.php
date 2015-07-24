@@ -1,7 +1,7 @@
 <?php
-namespace ExamplePluginTest;
+namespace VoronoiImageMapPluginTest;
 
-class ExampleTest extends \WP_UnitTestCase
+class InitializeTest extends \WP_UnitTestCase
 {
 
     public function testExchangeArraySetsPropertiesCorrectly()
