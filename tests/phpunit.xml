@@ -2,8 +2,8 @@
 
 <phpunit bootstrap="Bootstrap.php">
     <testsuites>
-        <testsuite name="example-plugin">
-            <directory>./ExamplePluginTest</directory>
+        <testsuite name="voronoi-image-map-plugin">
+            <directory>./VoronoiImageMapPluginTest</directory>
         </testsuite>
     </testsuites>
     <logging>   

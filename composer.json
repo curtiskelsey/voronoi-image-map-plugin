@@ -1,17 +1,17 @@
 {
-    "name": "its-web-wordpress/example",
-    "description": "Provides an example of how to setup a wordpress project.",
+    "name": "kelsey9649/voronoi-image-map-plugin",
+    "description": "Provides the ability to generate Voronoi image maps",
     "minimum-stability": "stable",
-    "license": "proprietary",
+    "license": "MIT",
     "authors": [
         {
             "name": "Curtis Kelsey",
-            "email": "kelseyc@truman.edu"
+            "email": "curtis.kelsey@gmail.com"
         }
     ],
     "autoload": {
         "psr-4": {
-            "ExamplePlugin\\": "src"
+            "VoronoiImageMapPlugin\\": "src"
         }
     }
 }

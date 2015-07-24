@@ -1,7 +1,7 @@
 <?php
-namespace ExamplePlugin;
+namespace VoronoiImageMapPlugin;
 
-class Example
+class Initialization
 {
     public function __construct()
     {

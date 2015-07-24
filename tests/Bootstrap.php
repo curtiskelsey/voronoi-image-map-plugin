@@ -6,7 +6,7 @@ if ( !$_tests_dir ) $_tests_dir = '/var/lib/wordpress/trunk';
 require_once $_tests_dir . '/tests/phpunit/includes/functions.php';
 
 function _manually_load_plugin() {
-    require dirname( __FILE__ ) . '/../example.php';
+    require dirname(__FILE__) . '/../voronoi-image-map-plugin.php';
 }
 tests_add_filter( 'muplugins_loaded', '_manually_load_plugin' );
 
