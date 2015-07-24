@@ -3,9 +3,10 @@ namespace VoronoiImageMapPlugin;
 
 class Menu
 {
+
     public function __construct()
     {
-        add_action('admin_menu', array($this,'addMenus'));
+        add_action('admin_menu', array($this,'addMenus'), 9);
     }
 
     public function addMenus()
