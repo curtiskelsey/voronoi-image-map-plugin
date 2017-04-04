@@ -1,0 +1,12 @@
+<configuration xmlns="http://logging.apache.org/log4php/">
+    <appender name="myFileAppender" class="LoggerAppenderFile">
+        <layout class="LoggerLayoutPattern">
+            <param name="conversionPattern" value="%d{M d Y H:i:s,u} [%t] %p %c %x - %m%n" />
+        </layout>
+        <param name="file" value="voronoi-image-map-plugin.log" />
+    </appender>
+    <root>
+        <level value="WARN" />
+        <appender_ref ref="myFileAppender" />
+    </root>
+</configuration>

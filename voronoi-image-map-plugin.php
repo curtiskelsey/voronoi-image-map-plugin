@@ -12,5 +12,7 @@
 // Initialize the autoloader
 require_once "vendor/autoload.php";
 
+\Logger::configure(__DIR__.'/config/log4php.xml');
+
 // Instantiate any objects that you need
-$example = new \VoronoiImageMapPlugin\Initialize();
+$voronoiImageMap = new \VoronoiImageMapPlugin\Initialize();

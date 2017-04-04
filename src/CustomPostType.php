@@ -1,13 +1,24 @@
 <?php
+
 namespace VoronoiImageMapPlugin;
 
+/**
+ * Class CustomPostType
+ * @package VoronoiImageMapPlugin
+ */
 class CustomPostType
 {
+    /**
+     * CustomPostType constructor.
+     */
     public function __construct()
     {
         add_action('init', array($this, 'addPostTypes'));
     }
 
+    /**
+     * Adds an image map post type
+     */
     public function addPostTypes()
     {
         register_post_type( 'voronoi-image-map',

@@ -9,6 +9,11 @@
             "email": "curtis.kelsey@gmail.com"
         }
     ],
+    "require": {
+        "php": ">=5.4",
+        "apache/log4php": ">=2.3.0",
+        "ezyang/htmlpurifier": ">=4.6.0"
+    },
     "autoload": {
         "psr-4": {
             "VoronoiImageMapPlugin\\": "src"
